@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: linear-gradient(to right, #e16445 0%, #fdc585 100%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #c50a33;
+  padding: 20px 0;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.intro img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.facts,
+.nutritional-info {
+  margin-top: 20px;
+}
+
+.facts h2,
+.nutritional-info h2 {
+  color: #00d0ff;
+  font-weight: 700;
+}
+
+.facts ul,
+.nutritional-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.facts ul li,
+.nutritional-info ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content a.button {
+  background-color: #c50a33;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-content a.button:hover {
+  background-color: #1b1b1a;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .content {
+    margin: 20px;
+  }
+}
+
+.form-container {
+  background-color: #ffffff; /* White background for form */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for form */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for form */
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="city"],
+textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button.submit-button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: none;
+  transition: background-color 0.3s;
+}
+
+button.submit-button:hover {
+  background-color: #009fe3;
+}
+
+.about-background {
+  background-image: url("Lider-Candy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.index-background {
+  background-image: url("lider-candy-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
